@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="" extends="task" table="x_239659_myneedit_needit">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_what_needed" table="x_239659_myneedit_historic_needit_data">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes/>
-        <audit>true</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=What needed</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label/>
+        <column_label>What needed</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -27,15 +22,15 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element/>
+        <element>u_what_needed</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Collection">collection</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_239659_myneedit_needit</name>
+        <name>x_239659_myneedit_historic_needit_data</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -47,21 +42,21 @@
         <reference_qual/>
         <reference_qual_condition/>
         <reference_type/>
-        <sizeclass>10</sizeclass>
+        <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-21 18:25:23</sys_created_on>
-        <sys_id>4b50ae3fdb2023002630fe1b6896192a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>x_239659_myneedit_needit</sys_name>
+        <sys_created_on>2019-04-27 18:04:19</sys_created_on>
+        <sys_id>c4260942db4173002630fe1b6896192d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>What needed</sys_name>
         <sys_package display_value="myNeedIt" source="x_239659_myneedit">a94892f7db2023002630fe1b68961979</sys_package>
         <sys_policy/>
         <sys_scope display_value="myNeedIt">a94892f7db2023002630fe1b68961979</sys_scope>
-        <sys_update_name>sys_dictionary_x_239659_myneedit_needit_null</sys_update_name>
+        <sys_update_name>sys_dictionary_x_239659_myneedit_historic_needit_data_u_what_needed</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-21 19:12:46</sys_updated_on>
+        <sys_updated_on>2019-04-27 18:04:19</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
