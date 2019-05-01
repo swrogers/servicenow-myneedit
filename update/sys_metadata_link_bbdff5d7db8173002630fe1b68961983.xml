@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>e17fb1d7db8173002630fe1b689619ee</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>0bec7d17db8173002630fe1b68961992</answer>
+        <condition table="var__m_sys_decision_input_f65df157db8173002630fe1b6896191d">u_request_type=legal^u_priority=1^ORu_priority=2^EQ<item endquery="false" field="u_request_type" goto="false" newquery="false" operator="=" or="false" value="legal"/>
+            <item endquery="false" field="u_priority" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item endquery="false" field="u_priority" goto="false" newquery="false" operator="=" or="true" value="2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_table display_value="Assignee Category Decision">f65df157db8173002630fe1b6896191d</decision_table>
+        <default_answer>false</default_answer>
+        <input_table>var__m_sys_decision_input_f65df157db8173002630fe1b6896191d</input_table>
+        <label>High Priority Legal</label>
+        <order>100</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-01 19:29:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>e17fb1d7db8173002630fe1b689619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-01 19:29:01</sys_updated_on>
+    </sys_decision_question>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-01 19:29:01</sys_created_on>
+        <sys_id>bbdff5d7db8173002630fe1b68961983</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="myNeedIt" source="x_239659_myneedit">a94892f7db2023002630fe1b68961979</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="myNeedIt">a94892f7db2023002630fe1b68961979</sys_scope>
+        <sys_update_name>sys_metadata_link_bbdff5d7db8173002630fe1b68961983</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-01 19:29:01</sys_updated_on>
+        <tablename>sys_decision_question</tablename>
+    </sys_metadata_link>
+</record_update>
